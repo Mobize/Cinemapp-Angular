@@ -1,0 +1,118 @@
+/* Material font */
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(fonts/roboto-regular.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* Material icons */
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(fonts/material-icons.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 0;
+}
+
+h1,
+h1>a {
+  color: #3f51b5;
+}
+
+h2,
+a,
+mat-card-title {
+  color: #ff4081;
+}
+
+.nav-active {
+  border-bottom-color: #8c9eff;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  border: 0;
+}
+
+iframe[src*="youtube"] {
+  height: 40vh;
+}
+
+/* Container */
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+cinemapp-root {
+  display: block;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+/* Menu */
+
+/* Forms */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+button+p>a {
+  color: rgb(150, 150, 150);
+}
+
+.mat-form-field {
+  margin-bottom: 8px;
+  width: 100%;
+}

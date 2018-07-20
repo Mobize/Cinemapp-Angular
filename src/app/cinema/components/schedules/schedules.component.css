@@ -1,0 +1,25 @@
+@media all {
+
+  #schedules {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #schedules>div {
+    flex: 50%;
+  }
+
+}
+
+@media all and (max-width: 459px) {
+
+  #schedules {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  #schedules>div {
+    flex: 100%;
+  }
+
+}

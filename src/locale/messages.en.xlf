@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="headerLogoAlt" datatype="html">
+        <source>Cinemapp</source>
+        <target>Cinemapp</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/ui/layout/header/header.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">App name</note>
+        <note priority="1" from="meaning">app name</note>
+      </trans-unit>
+      <trans-unit id="menuMovies" datatype="html">
+        <source>Films</source>
+        <target>Movies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/ui/layout/menu/menu.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">Menu item for movies</note>
+        <note priority="1" from="meaning">menu movies</note>
+      </trans-unit>
+      <trans-unit id="menuTheaters" datatype="html">
+        <source>Cinémas</source>
+        <target>Theaters</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/ui/layout/menu/menu.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">Menu item for theaters</note>
+        <note priority="1" from="meaning">menu theaters</note>
+      </trans-unit>
+      <trans-unit id="menuReservations" datatype="html">
+        <source>Mes résas</source>
+        <target>My reservations</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/ui/layout/menu/menu.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">Menu item for reservations</note>
+        <note priority="1" from="meaning">menu reservations</note>
+      </trans-unit>
+      <trans-unit id="menuAccount" datatype="html">
+        <source>Compte</source>
+        <target>Account</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/ui/layout/menu/menu.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">Menu item for account</note>
+        <note priority="1" from="meaning">menu account</note>
+      </trans-unit>
+      <trans-unit id="profileReservationsNumber" datatype="html">
+        <source><x id="ICU" equiv-text="{reservations.length, plural, =0 {...} =1 {...} other {...}}"/>.</source>
+        <target><x id="ICU" equiv-text="{reservations.length, plural, =0 {...} =1 {...} other {...}}"/>.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/account/pages/profile/profile.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="94437d6885b109ed8c6b55f6db1710a71508726c" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {Vous n&apos;avez pas de réservation} =1 {Vous avez une réservation} other {Vous avez <x id="INTERPOLATION" equiv-text="{{reservations.length}}"/> réservations} }</source>
+        <target>{VAR_PLURAL, plural, =0 {You have no reservation} =1 {You have one reservation} other {You have <x id="INTERPOLATION" equiv-text="{{reservationsList.length}}"/> reservations} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/account/pages/profile/profile.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="moviesStarred" datatype="html">
+        <source>Films à la une</source>
+        <target>Starred movies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/cinema/pages/movies/movies.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">Starred movies header</note>
+        <note priority="1" from="meaning">starred movies</note>
+      </trans-unit>
+      <trans-unit id="moviesAll" datatype="html">
+        <source>Tous les films</source>
+        <target>All movies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/cinema/pages/movies/movies.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">All movies header</note>
+        <note priority="1" from="meaning">all movies</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

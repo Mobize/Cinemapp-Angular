@@ -1,0 +1,14 @@
+#slideshow {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#slides {
+  display: flex;
+  transition-property: transform;
+}
+
+#pagination {
+  display: flex;
+  justify-content: center;
+}

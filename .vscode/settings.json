@@ -1,0 +1,8 @@
+// Placez vos paramètres dans ce fichier pour remplacer les paramètres par défaut et les paramètres utilisateur.
+{
+  "tslint.alwaysShowRuleFailuresAsWarnings": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "npm.enableScriptExplorer": true,
+  "explorer.openEditors.visible": 0
+}
