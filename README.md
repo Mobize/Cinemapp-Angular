@@ -1,0 +1,3 @@
+# Cinemapp-Angular
+
+npm install
